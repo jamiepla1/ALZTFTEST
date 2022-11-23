@@ -1,0 +1,12 @@
+{
+    "extend_es_root": {
+      "policy_assignments": ["Allowed-locations","Allowed-locations-for-RG","Inherit-tag-RG-project","Inherit-tag-RG-solution","Req-tag-resources-proj","Req-tag-resources-solut","Req-tag-RG-proj","Req-tag-RG-solut"],
+      "policy_definitions": [],
+      "policy_set_definitions": [],
+      "role_definitions": [],
+      "archetype_config": {
+        "access_control": {
+        }
+      }
+    }
+  }

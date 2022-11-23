@@ -1,0 +1,22 @@
+{
+    "name": "Req-tag-resources-solut",
+    "type": "Microsoft.Authorization/policyAssignments",
+    "apiVersion": "2019-09-01",
+    "properties": {
+        "description": "Enforces existence of a tag. Does not apply to resource groups.",
+        "displayName": "Require a Solution tag on resources",
+        "notScopes": [],
+        "parameters": {
+            "tagName":{
+                "value": "Solution"
+            }
+        },
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/871b6d14-10aa-478d-b590-94f262ecfa99",
+        "scope": "${current_scope_resource_id}",
+        "enforcementMode": null
+    },
+    "location": "${default_location}",
+    "identity": {
+        "type": "None"
+    }
+}
